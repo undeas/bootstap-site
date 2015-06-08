@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,6 +49,18 @@
                 <li><a href="#">page 3</a></li>
                 <li><a href="#">page 4</a></li>
             </ul>
+            <form action="" class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="E-mail" value=""/>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" placeholder="Password" value=""/>
+                </div>
+                <button class="btn btn-primary" type="submit">
+                    <i class="fa fa-sign-in"></i>
+                    ВОЙТИ
+                </button>
+            </form>
         </div>
     </div>
 </div>
@@ -101,23 +115,211 @@
 <div class="container">
     <div class="row">
         <h1>Site's name</h1>
+        <ul class="fa-ul">
+            <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+            <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+            <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
+            <li><i class="fa-li fa fa-square"></i>in lists</li>
+        </ul>
+        <p>
+            <a href="#" class="btn btn-default btn-lg">Кнопка</a>
+            <a href="#" class="btn btn-primary"><i class=" fa fa-spinner fa-spin"></i></a>
+            <a href="#" class="btn btn-primary">Кнопка</a>
+            <a href="#" class="btn btn-danger btn-sm">Кнопка</a>
+            <a href="#" class="btn btn-primary">Кнопка</a>
+            <a href="#" class="btn btn-link">Кнопка</a>
+        </p>
     </div>
 </div>
-<div class="container-fluid">
+<!--BUTTONS BEGIN-->
+<div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-4">Lorem ipsum dolor sit amet.</div>
-                <div class="col-md-4">Lorem ipsum dolor sit amet.</div>
-                <div class="col-md-4">Lorem ipsum dolor sit amet.</div>
+        <div class="btn-toolbar">
+            <div class="btn-group btn-group-lg">
+                <a href="#" class="btn btn-success"><i class=" fa fa-spinner"></i></a>
+                <a href="#" class="btn btn-success"><i class=" fa fa-file-excel-o"></i></a>
+                <a href="#" class="btn btn-success"><i class=" fa fa-facebook-official"></i></a>
+            </div>
+            <div class="btn-group btn-group-lg">
+                <a href="#" class="btn btn-success"><i class=" fa fa-spinner"></i></a>
+                <a href="#" class="btn btn-success"><i class=" fa fa-file-excel-o"></i></a>
+                <a href="#" class="btn btn-success"><i class=" fa fa-facebook-official"></i></a>
+            </div>
+            <div class="btn-group btn-group-lg">
+                <a href="#" class="btn btn-success"><i class=" fa fa-spinner"></i></a>
+                <a href="#" class="btn btn-success"><i class=" fa fa-file-excel-o"></i></a>
+                <a href="#" class="btn btn-success"><i class=" fa fa-facebook-official"></i></a>
             </div>
         </div>
-        <div class="col-md-4 hidden-md visible-lg"></div>
+        <div class="btn-group btn-group-vertical">
+            <a href="#" class="btn btn-success"><i class=" fa fa-spinner"></i></a>
+            <a href="#" class="btn btn-success"><i class=" fa fa-file-excel-o"></i></a>
+            <a href="#" class="btn btn-success"><i class=" fa fa-facebook-official"></i></a>
+        </div>
     </div>
 </div>
+<!--BUTTONS END-->
+<!--DROPDOWN BUTTON BEGIN-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="btn-group">
+                <button class="btn btn-success">
+                    Dropdown menu
+                </button>
+                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+</div>
+    <!--DROPDOWN BUTTON END-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+<!--TABS BEGIN-->
+            <div class="tabs">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab-1" data-toggle="tab">Вкладка 1</a></li>
+                    <li><a href="#tab-2" data-toggle="tab">Вкладка 2</a></li>
+                    <li><a href="#tab-3" data-toggle="tab">Вкладка 3</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active fade in" id="tab-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor laboriosam, natus neque
+                            nobis  officiis quam reprehenderit rerum! Corporis deleniti ducimus fuga hic optio pariatur quia
+                            tempore temporibus vel vero?
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="tab-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea excepturi ipsa laudantium
+                            molestiae  provident vero voluptas voluptatem? A dignissimos error fugit illo iste libero magni
+                            maxime modi necessitatibus provident.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid commodi corporis,
+                            explicabo  facere hic ipsum iure laudantium magnam magni maiores necessitatibus omnis quas ratione
+                            veritatis. Dicta dolores quae voluptatum! Asperiores, at atque est exercitationem expedita
+                            explicabo  nihil nobis officiis placeat provident quae quia quo reiciendis tempora tenetur, vero
+                            voluptate!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--TABS END-->
+        <div class="col-md-6">
+            <!--SPOILER BEGIN-->
+            <a class="btn btn-primary spoiler collapsed" href="#spoiler-1" data-toggle="collapse">
+                Spoiler
+            </a>
+            <div class="collapse" id="spoiler-1">
+                <div class="well">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorum expedita inventore
+                         ipsa itaque,
+                         minima minus provident rem sed voluptatem.
+                    </p>
+                </div>
+            </div>
+            <!--SPOILER END-->
+        </div>
+    </div>
+</div>
+    <!--ACCORDION BEGIN-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div id="accordion" class="panel-group">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h4
+                                class="panel-title"><a href="#collapse-1" data-parent="#accordion" data-toggle="collapse">Open 1
+                            slide</a></h4>
+                    </div>
+                    <div id="collapse-1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda autem distinctio
+                                eum eveniet explicabo fuga id in iste itaque magni minima nesciunt possimus, rem, reprehenderit
+                                suscipit, ullam? Et, unde?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4
+                                class="panel-title"><a href="#collapse-2" data-parent="#accordion" data-toggle="collapse">Open 2
+                            slide</a></h4>
+                    </div>
+                    <div id="collapse-2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus fugiat illum,
+                                maiores odio odit praesentium quas quod. Accusantium assumenda explicabo, facilis iusto numquam
+                                possimus praesentium provident quo repudiandae sed!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h4
+                                class="panel-title"><a href="#collapse-3" data-parent="#accordion" data-toggle="collapse">Open 3
+                            slide</a></h4>
+                    </div>
+                    <div id="collapse-3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus alias aliquid, cum
+                                dignissimos dolor ducimus ea id iste itaque neque nobis nostrum provident quo recusandae
+                                reprehenderit sed totam unde.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-success" type="button" data-toggle="modal" data-target="#modal-1">Open modal window</button>
+        </div>
+    </div>
+</div>
+    <!--ACCORDION END-->
+
+<div class="marged">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta enim harum laudantium neque non, quasi quod! Accusantium aliquid asperiores aspernatur atque commodi, consequatur cupiditate deleniti deserunt dolor illo inventore iusto molestiae nulla optio pariatur perferendis possimus praesentium provident quaerat quasi recusandae reprehenderit saepe sequi soluta tenetur voluptas voluptates, voluptatum! Doloremque ex ipsam sint! Ad atque consequatur, delectus dolores earum eum exercitationem nam rerum. Illo, magni maxime modi nulla pariatur reprehenderit similique voluptas voluptatem. Asperiores assumenda cum debitis delectus dolores ea earum et eum explicabo maxime nihil, nostrum officia perspiciatis porro quas qui voluptatum! At eius error fugiat modi sequi.
+</div>
+<!--Modal Window Begin-->
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4 class="modal-title">Window's name</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is the modal window</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" type="button" data-dismiss="modal">Close it</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Modal Window End-->
 <!--Main Content END-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--Скрипт для работы Swipe-->
 <script src="js/touchswipe.min.js"></script>
 <script>
     $(document).ready(function() {
